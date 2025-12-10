@@ -241,7 +241,7 @@
           .catch((err) => {
             chat.removeChild(loadingBubble);
             addBubble(
-              '오류가 발생했습니다. 잠시 후 다시 시도해 주세요.\n' +
+              '오류가 발생했습니다. 잠시 후 다시 시도해 주세요.\n\n' +
                 (err && err.message ? err.message : ''),
               'bot'
             );
@@ -251,3 +251,4 @@
     </script>
   </body>
 </html>
+<!-- PR 테스트용 문구입니다. -->
